@@ -2,12 +2,12 @@ import React from 'react';
 
 import './App.css';
 import Hello from "../../Hello"
-import Business from "../Business/Business.jsx"
+import BusinessList from "../BusinessList/BusinessList.jsx"
 
 
 function App() {
   return (
-    <Business />
+   <BusinessList />
   );
 }
 
