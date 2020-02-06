@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import './Business.css'
 
 
 const business = {
