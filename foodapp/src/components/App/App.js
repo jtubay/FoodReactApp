@@ -1,11 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
-import Hello from "./Hello.jsx"
+import Hello from "../../Hello"
+import Business from "../Business/Business.jsx"
 
 function App() {
   return (
-    <Hello />
+    <Business />
   );
 }
 
