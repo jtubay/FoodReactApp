@@ -7,6 +7,7 @@ const sortByOptions = {
     'Highest Rated': 'rating',
     'Most Reviewed': 'review_count'
   }
+  
 class SearchBar extends Component {
     renderSortByOptions (){
         return Object.keys(sortByOptions).map(sortByOption =>{
